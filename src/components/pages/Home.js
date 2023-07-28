@@ -5,7 +5,7 @@ import logo from "../img/logo.png";
 import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <div className="container home-page">
+    <div className="container">
       <SideBar />
       <div className="text-zone">
         <ul className="hero">

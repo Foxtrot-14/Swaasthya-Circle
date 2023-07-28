@@ -1,4 +1,4 @@
-.act {
+.acta {
   height: 100%;
   width: 100%;
   background: linear-gradient(#1b9a9d, #1b599d, #1b9d5f);
@@ -12,4 +12,13 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   color: white;
+}
+.carda {
+  position: relative;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 400px;
+  width: 480px;
+  background-color: #7dc059;
+  box-shadow: 20px 20px 50px rgb(21, 21, 21);
 }

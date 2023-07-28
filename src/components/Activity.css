@@ -1,0 +1,9 @@
+.carda {
+  position: relative;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 400px;
+  width: 480px;
+  background-color: #7dc059;
+  box-shadow: 20px 20px 50px rgb(21, 21, 21);
+}

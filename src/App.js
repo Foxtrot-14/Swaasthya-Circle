@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <SideBar />
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/about" exact Component={About} />

@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background: white;
-}
 @font-face {
   font-family: "Helvetica Neue";
   src: url("../src/components/fonts/helvetica-neu.ttf") format("ttf");
