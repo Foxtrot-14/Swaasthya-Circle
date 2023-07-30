@@ -1,13 +1,21 @@
 import React from "react";
 import "./SideBar.css";
-import { Link, NavLink } from "react-router-dom";
-import logo from "./img/logo.png";
+import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 const SideBar = () => {
   return (
-    <div className="nav-bar">
-      <Link className="logo1" to="/">
-        <img src={logo} alt="logo" />
-      </Link>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        type: "just",
+        stiffness: 260,
+        damping: 20,
+        delay: 1.5,
+      }}
+      whileHover={{ scale: 1.1 }}
+      className="nav-bar"
+    >
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <i class="fa-solid fa-house"></i>
@@ -45,7 +53,7 @@ const SideBar = () => {
           <i class="fa-solid fa-handshake-angle"></i>
         </NavLink>
       </nav>
-    </div>
+    </motion.div>
   );
 };
 

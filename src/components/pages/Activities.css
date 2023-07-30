@@ -1,7 +1,7 @@
 .act {
   height: 100%;
   width: 100%;
-  background: linear-gradient(#1b9a9d, #1b599d, #1b9d5f);
+  background: white;
   min-height: 500px;
   position: absolute;
 }
