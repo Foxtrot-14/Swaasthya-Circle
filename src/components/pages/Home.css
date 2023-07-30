@@ -3,7 +3,7 @@
   width: 100%;
   position: absolute;
   min-height: 500px;
-  background: white;
+  background: url("../img/back.png");
 }
 .hero {
   list-style: none;

@@ -5,7 +5,17 @@ import logo from "../img/logo.png";
 import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <div className="container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        type: "just",
+        stiffness: 260,
+        damping: 20,
+        delay: 0.2,
+      }}
+      className="container"
+    >
       <SideBar />
       <div className="text-zone">
         <ul className="hero">
@@ -20,7 +30,7 @@ const Home = () => {
             whileHover={{ scale: 1.1 }}
           >
             <h1>
-              To Promote Health <br />
+              To Promote Health, <br />
               To Protect the Environment!
             </h1>
           </motion.li>
@@ -38,7 +48,7 @@ const Home = () => {
           </motion.li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
