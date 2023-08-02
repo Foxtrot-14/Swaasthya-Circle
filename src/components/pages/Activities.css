@@ -1,7 +1,7 @@
 .act {
   height: 100%;
   width: 100%;
-  background: white;
+  background-color: rgb(0, 0, 0);
   min-height: 500px;
   position: absolute;
 }
@@ -11,5 +11,5 @@ h1 {
   letter-spacing: 2px;
   font-size: 40px;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
