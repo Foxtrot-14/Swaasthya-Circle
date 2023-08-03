@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import SideBar from "../SideBar";
 import logo from "../img/logo.png";
 import { motion } from "framer-motion";
 const Home = () => {
@@ -16,7 +15,6 @@ const Home = () => {
       }}
       className="container"
     >
-      <SideBar />
       <div className="text-zone">
         <ul className="hero">
           <motion.li
