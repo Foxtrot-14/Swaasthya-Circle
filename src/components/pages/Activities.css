@@ -4,6 +4,10 @@
 }
 .carrow {
   margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  position: absolute;
 }
 .desc {
   margin-top: 60px;

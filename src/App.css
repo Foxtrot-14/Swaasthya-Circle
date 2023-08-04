@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+.App {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  min-height: 500px;
+  background: url("./components/img/back.png");
+}
 @font-face {
   font-family: "Helvetica Neue";
   src: url("../src/components/fonts/helvetica-neu.ttf") format("ttf");
