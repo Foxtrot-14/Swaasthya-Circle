@@ -21,7 +21,7 @@ const About = () => {
             <p>
               Swaasthya CIRCLE Foundation (SCF) is a Not-for-profit company
               registered under section 8 of the companies act 2013, with a
-              Corporate Identification Number U85300KA2020NPL. e in SWAASTHYA
+              Corporate Identification Number U85300KA2020NPL. We in SWAASTHYA
               CIRCLE are socially committed and enthusiastic professionals from
               different walks of life who aim to work towards better lives for
               our fellow citizens and cleaner, greener living spaces. We believe

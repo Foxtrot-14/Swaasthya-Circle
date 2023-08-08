@@ -1,78 +1,46 @@
 import React from "react";
 import Activity from "../Activity";
 import "./Activities.css";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import im from "../../firebaseConfig";
 const Activities = () => {
-  const link =
-    "https://firebasestorage.googleapis.com/v0/b/swaasthya-web-app.appspot.com/o/Adolecent%20Health%20Awareness%2F12.png?alt=media&token=19a4e458-d4bb-4b89-997c-c3f0008d1d75";
-  const name = "Test";
+  const Thumbnail = im.Thumbnail;
+  const Data = im.Data;
+  const Ids = im.Ids;
   return (
-    <div>
-      <div className="carrow">
-        <ul className="clist">
-          <Link>
-            <motion.li
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20,
-              }}
-              whileHover={{ scale: 1.1 }}
-              className="im"
-            >
-              <center>
-                <img src={link} alt="image" />
-                <p className="desc">
-                  Activity:{name} <br />
-                </p>
-              </center>
-            </motion.li>
-          </Link>
-          <Link>
-            <motion.li
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20,
-              }}
-              whileHover={{ scale: 1.1 }}
-              className="im"
-            >
-              <center>
-                <img src={link} alt="image" />
-                <p className="desc">
-                  Activity:{name} <br />
-                </p>
-              </center>
-            </motion.li>
-          </Link>
-          <Link>
-            <motion.li
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20,
-              }}
-              whileHover={{ scale: 1.1 }}
-              className="im"
-            >
-              <center>
-                <img src={link} alt="image" />
-                <p className="desc">
-                  Activity:{name} <br />
-                </p>
-              </center>
-            </motion.li>
-          </Link>
-        </ul>
-      </div>
+    <div className="act">
+      <ul className="main-list">
+        <li className="item-on">
+          <Activity thumbnail={Thumbnail[0]} name={Data[0]} id={Ids[0]} />
+        </li>
+        <li className="item-on1">
+          <Activity thumbnail={Thumbnail[1]} name={Data[1]} id={Ids[1]} />
+        </li>
+        <li className="item-on2">
+          <Activity thumbnail={Thumbnail[2]} name={Data[2]} id={Ids[2]} />
+        </li>
+      </ul>
+      <ul className="main-list">
+        <li className="item-on">
+          <Activity thumbnail={Thumbnail[3]} name={Data[3]} id={Ids[3]} />
+        </li>
+        <li className="item-on1">
+          <Activity thumbnail={Thumbnail[4]} name={Data[4]} id={Ids[4]} />
+        </li>
+        <li className="item-on2">
+          <Activity thumbnail={Thumbnail[5]} name={Data[5]} id={Ids[5]} />
+        </li>
+      </ul>
+      <ul className="main-list">
+        <li className="item-on">
+          <Activity thumbnail={Thumbnail[6]} name={Data[6]} id={Ids[6]} />
+        </li>
+        <li className="item-on1">
+          <Activity thumbnail={Thumbnail[7]} name={Data[7]} id={Ids[7]} />
+        </li>
+        <li className="item-on2">
+          <Activity thumbnail={Thumbnail[8]} name={Data[8]} id={Ids[8]} />
+        </li>
+      </ul>
     </div>
   );
 };
