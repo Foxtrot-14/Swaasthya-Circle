@@ -1,9 +1,7 @@
 .acta {
   height: 100%;
   width: 100%;
-  position: absolute;
-  min-height: 500px;
-  background-image: url("../img/back.png");
+  position: relative;
 }
 h1 {
   font-family: "Coolvetica";

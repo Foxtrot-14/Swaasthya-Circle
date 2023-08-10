@@ -9,9 +9,12 @@
   min-height: 500px;
 }
 .desc {
-  margin-top: 40px;
-  height: 54px;
-  font-size: 20px;
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  line-break: loose;
+  font-family: "Coolvetica";
+  color: wheat;
 }
 .im {
   width: 300px;
@@ -23,7 +26,7 @@
 }
 img {
   margin-top: 50px;
-  height: 180px;
-  width: 180px;
-  border-radius: 500px;
+  height: 200px;
+  width: 200px;
+  border-radius: 80px;
 }

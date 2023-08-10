@@ -5,10 +5,9 @@
 .App {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   min-height: 500px;
   background: url("./components/img/back.png");
-  background-repeat: repeat;
 }
 @font-face {
   font-family: "Helvetica Neue";

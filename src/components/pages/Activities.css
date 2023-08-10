@@ -1,5 +1,5 @@
 .act {
-  margin-top: 125px;
+  margin-top: 60px;
   height: 100%;
   width: 100%;
 }
@@ -7,4 +7,12 @@
   margin-left: 120px;
   display: flex;
   list-style: none;
+}
+#head {
+  margin-top: 50px;
+  font-size: 40px;
+  color: #7dc059;
+  line-height: 0.1cm;
+  text-shadow: 0px 5px 5px rgb(21, 21, 21);
+  font-family: "Coolvetica";
 }

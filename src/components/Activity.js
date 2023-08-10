@@ -22,7 +22,7 @@ const Activity = (props) => {
           >
             <center>
               <img src={link} alt="image" />
-              <p className="desc">Activity: {name}</p>
+              <h3 className="desc">{name}</h3>
             </center>
           </motion.div>
         </Link>

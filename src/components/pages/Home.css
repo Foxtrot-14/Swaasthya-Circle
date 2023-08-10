@@ -1,8 +1,9 @@
 .container {
   height: 100%;
   width: 100%;
-  position: absolute;
-  min-height: 500px;
+  position: fixed;
+  min-height: 1000px;
+  background: url("../img/back.png");
 }
 .hero {
   list-style: none;
