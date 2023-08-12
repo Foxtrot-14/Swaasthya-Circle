@@ -1,11 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {
-  getFirestore,
-  getDocs,
-  collection,
-  getDoc,
-  doc,
-} from "firebase/firestore";
+import { getFirestore, getDocs, collection } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyB0gN4BpEUkmy9XIQX2O5Ca5t2bX3LulFQ",
   authDomain: "swaasthya-web-app.firebaseapp.com",

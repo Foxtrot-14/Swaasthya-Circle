@@ -2,13 +2,15 @@ import React from "react";
 import "./Activity.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import ActivityDetails from "./pages/ActivityDetails";
 const Activity = (props) => {
   const link = props.thumbnail;
   const name = props.name;
+  const Id = props.id;
   return (
     <div>
       <div className="carrow">
-        <Link>
+        <Link to={{ pathname: "/activitydetail", search: `?data=${Id}` }}>
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
