@@ -3,20 +3,20 @@ import { getDoc, doc } from "firebase/firestore";
 import im from "../../firebaseConfig";
 import { useLocation } from "react-router-dom";
 import "./ActivityDetails.css";
-const ActivityDetails = (props) => {
+const ActivityDetails = () => {
   const [data, setData] = useState(null);
+  const [Image, setImage] = useState(null);
   const location = useLocation();
   const Id = new URLSearchParams(location.search).get("data");
-  console.log("Props ", Id);
   useEffect(() => {
     const db = im.db;
     const docRef = doc(db, "Activities", Id);
-
     const fetchData = async () => {
       try {
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setData(docSnap.data());
+          setImage(docSnap.data().Image);
         } else {
           console.log("Document not found");
         }
@@ -24,15 +24,16 @@ const ActivityDetails = (props) => {
         console.error("Error fetching document:", error);
       }
     };
-
     fetchData();
   }, []);
-  console.log("Test ", data);
   return (
-    <div>
+    <div className="container1">
       <center>
-        <h3>{data ? data.Name : "Loading..."}</h3>
+        <h3 id="head">{data ? data.Name : "Loading..."}</h3>
       </center>
+      <div className="gallery">
+        {Image && Image.map((image, index) => <img key={index} src={image} />)}
+      </div>
     </div>
   );
 };
