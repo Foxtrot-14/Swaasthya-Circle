@@ -1,0 +1,36 @@
+.abc {
+  margin-left: 200px;
+  color: black;
+}
+.ery {
+  display: grid;
+  grid-template-columns: repeat(minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.ard {
+  background-color: #1b9a9d;
+  height: 300px;
+  width: 1000px;
+  margin-left: 200px;
+  border-radius: 50px;
+  box-shadow: 5px 20px 20px rgb(21, 21, 21);
+}
+.ghi {
+  margin-left: 25px;
+  height: 200px;
+  border-radius: 20px;
+}
+.jkl {
+  margin-top: 70px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: "Coolvetica";
+}
+.jkl h3 {
+  margin-bottom: 1px;
+}
+.def {
+  display: flex;
+  list-style: none;
+}

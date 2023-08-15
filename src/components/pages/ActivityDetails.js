@@ -3,6 +3,7 @@ import { getDoc, doc } from "firebase/firestore";
 import im from "../../firebaseConfig";
 import { useLocation } from "react-router-dom";
 import "./ActivityDetails.css";
+import { motion } from "framer-motion";
 const ActivityDetails = () => {
   const [data, setData] = useState(null);
   const [Image, setImage] = useState(null);
@@ -32,7 +33,10 @@ const ActivityDetails = () => {
         <h3 id="head">{data ? data.Name : "Loading..."}</h3>
       </center>
       <div className="gallery">
-        {Image && Image.map((image, index) => <img key={index} src={image} />)}
+        {Image &&
+          Image.map((image, index) => (
+            <motion.img whileHover={{ scale: 2.0 }} key={index} src={image} />
+          ))}
       </div>
     </div>
   );

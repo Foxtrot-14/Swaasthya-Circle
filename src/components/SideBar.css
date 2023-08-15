@@ -30,3 +30,32 @@ a {
 a:hover {
   color: #7dc059;
 }
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    background-color: #1b9a9d;
+    width: 330px;
+    margin-left: 32px;
+    top: 20px;
+    height: 5px;
+    min-height: 70px;
+    position: fixed;
+  }
+
+  nav {
+    display: flex;
+    margin-left: 15px;
+    position: sticky;
+    top: 20px;
+    left: auto;
+  }
+
+  a {
+    padding: 10px 25px;
+    position: relative;
+    font-size: 30px;
+    color: black;
+    padding-left: 10px;
+    display: block;
+    text-decoration: none;
+  }
+}

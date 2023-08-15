@@ -5,8 +5,8 @@ import About from "./components/pages/About";
 import Activities from "./components/pages/Activities";
 import Volunteer from "./components/pages/Volunteer";
 import SideBar from "./components/SideBar";
-import Activity from "./components/Activity";
 import ActivityDetails from "./components/pages/ActivityDetails";
+import Team from "./components/pages/Team";
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,7 @@ function App() {
           <Route path="/about" exact Component={About} />
           <Route path="/activities" exact Component={Activities} />
           <Route path="/contribute" exact Component={Volunteer} />
-          <Route path="/activity" exact Component={Activity} />
+          <Route path="/team" exact Component={Team} />
           <Route path="/activitydetail" exact Component={ActivityDetails} />
         </Routes>
       </Router>

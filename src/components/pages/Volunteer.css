@@ -1,0 +1,36 @@
+h1 {
+  color: black;
+}
+* {
+  font-family: "Coolvetica";
+}
+.vard {
+  background-color: #1b9a9d;
+  height: 350px;
+  width: 750px;
+  margin-left: 350px;
+  border-radius: 50px;
+  box-shadow: 5px 20px 20px rgb(21, 21, 21);
+  color: white;
+}
+.em {
+  padding-left: 90px;
+}
+.vard h2 {
+  padding-top: 20px;
+}
+.infor {
+  padding-top: 45px;
+  font-size: 25px;
+  padding-left: 30px;
+}
+.not {
+  display: inline;
+  padding-left: 5px;
+  padding-top: 12px;
+  height: 5px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  position: absolute;
+  line-height: 0px;
+}
