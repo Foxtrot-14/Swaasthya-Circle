@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: fantasy;
 }
 .App {
   height: 100%;
@@ -8,6 +9,11 @@
   position: relative;
   min-height: 500px;
   background: url("./components/img/back.png");
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    background-image: none;
+  }
 }
 @font-face {
   font-family: "Helvetica Neue";

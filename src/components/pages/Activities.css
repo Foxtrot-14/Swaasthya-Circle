@@ -11,8 +11,6 @@
 #head {
   margin-top: 50px;
   font-size: 40px;
+  font-weight: bolder;
   color: #7dc059;
-  line-height: 1cm;
-  text-shadow: 0px 5px 5px rgb(21, 21, 21);
-  font-family: "Coolvetica";
 }

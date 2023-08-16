@@ -1,17 +1,10 @@
 import React from "react";
 import "./Team.css";
 import da from "../../Teaminfo";
-
-// {
-//   da.dName.map((name, index) => (
-//     <h4 className="now">
-//       {name},{da.dQual[index]}
-//     </h4>
-//   ));
-// }
+import { motion } from "framer-motion";
 const Team = () => {
   return (
-    <div>
+    <div className="acta">
       <center>
         <h1 id="head">Meet Our Team...</h1>
       </center>
@@ -21,7 +14,12 @@ const Team = () => {
           <div className="ard">
             <ul className="def">
               <li>
-                <img className="ghi" src={da.dImage[index]} alt="photo" />
+                <motion.img
+                  whileHover={{ scale: 1.1 }}
+                  className="ghi"
+                  src={da.dImage[index]}
+                  alt="photo"
+                />
               </li>
               <li>
                 <p className="jkl">
@@ -40,7 +38,12 @@ const Team = () => {
           <div className="ard">
             <ul className="def">
               <li>
-                <img className="ghi" src={da.aImage[index]} alt="photo" />
+                <motion.img
+                  whileHover={{ scale: 1.1 }}
+                  className="ghi"
+                  src={da.aImage[index]}
+                  alt="photo"
+                />
               </li>
               <li>
                 <p className="jkl">
@@ -59,7 +62,12 @@ const Team = () => {
           <div className="ard">
             <ul className="def">
               <li>
-                <img className="ghi" src={da.mImage[index]} alt="photo" />
+                <motion.img
+                  whileHover={{ scale: 1.1 }}
+                  className="ghi"
+                  src={da.mImage[index]}
+                  alt="photo"
+                />
               </li>
               <li>
                 <p className="jkl">

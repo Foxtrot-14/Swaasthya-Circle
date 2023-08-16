@@ -1,20 +1,20 @@
 .acta {
   height: 100%;
   width: 100%;
+  background-image: url("../img/back2.png");
+  position: absolute;
+  background-position: repeat;
 }
 h1 {
-  font-family: "Coolvetica";
   padding-top: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 40px;
   font-weight: bold;
-  color: white;
   margin-bottom: 20px;
 }
 p {
   width: 700px;
   font-size: 20px;
-  font-family: "Helvetica";
 }
 .card1 {
   margin-top: 120px;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
+import SideBar from "../SideBar";
 const About = () => {
   return (
     <div className="acta">
@@ -61,6 +62,7 @@ const About = () => {
           </p>
         </motion.div>
       </center>
+      //vision and mission, services //change icon , serif fonts
     </div>
   );
 };

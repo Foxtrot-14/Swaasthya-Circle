@@ -28,15 +28,17 @@ const ActivityDetails = () => {
     fetchData();
   }, []);
   return (
-    <div className="container1">
-      <center>
-        <h3 id="head">{data ? data.Name : "Loading..."}</h3>
-      </center>
-      <div className="gallery">
-        {Image &&
-          Image.map((image, index) => (
-            <motion.img whileHover={{ scale: 2.0 }} key={index} src={image} />
-          ))}
+    <div className="acta">
+      <div className="container1">
+        <center>
+          <h3 id="head">{data ? data.Name : "Loading..."}</h3>
+        </center>
+        <div className="gallery">
+          {Image &&
+            Image.map((image, index) => (
+              <motion.img whileHover={{ scale: 2.0 }} key={index} src={image} />
+            ))}
+        </div>
       </div>
     </div>
   );

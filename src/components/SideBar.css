@@ -8,6 +8,7 @@
   z-index: 3;
   min-height: 425px;
   border-radius: 20px;
+  box-shadow: 0px 0px 60px rgb(21, 21, 21);
 }
 nav {
   display: inline-block;
@@ -36,9 +37,11 @@ a:hover {
     width: 330px;
     margin-left: 32px;
     top: 20px;
-    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 70px;
     min-height: 70px;
-    position: fixed;
+    position: relative;
   }
 
   nav {

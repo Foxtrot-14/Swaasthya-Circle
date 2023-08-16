@@ -2,7 +2,7 @@ import React from "react";
 import "./Volunteer.css";
 const Volunteer = () => {
   return (
-    <div>
+    <div className="acta">
       <center>
         <h1 id="head">Want to be a part...?</h1>
       </center>
