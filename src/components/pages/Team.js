@@ -56,7 +56,7 @@ const Team = () => {
         ))}
         ;
       </div>
-      <h1 className="abc">Team Members</h1>
+      <h1 className="abc">Our Pillars</h1>
       <div className="ery">
         {da.mName.map((name, index) => (
           <div className="ard">

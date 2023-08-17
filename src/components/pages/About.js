@@ -62,7 +62,7 @@ const About = () => {
           </p>
         </motion.div>
       </center>
-      //vision and mission, services //change icon , serif fonts
+      {/* //vision and mission, services //change icon , serif fonts */}
     </div>
   );
 };

@@ -44,6 +44,6 @@
     ]
   },
   "devDependencies": {
-    "@wixc3/react-board": "^2.2.1"
+    "@wixc3/react-board": "^2.3.0"
   }
 }

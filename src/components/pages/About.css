@@ -33,3 +33,35 @@ p {
   background-color: #1b9a9d;
   box-shadow: 20px 20px 50px rgb(21, 21, 21);
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    padding-top: 30px;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  p {
+    width: 300px;
+    font-size: 17px;
+  }
+  .card1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    height: 650px;
+    width: 350px;
+    background-color: #1b9a9d;
+    box-shadow: 20px 20px 50px rgb(21, 21, 21);
+  }
+  .card2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    height: 600px;
+    width: 350px;
+    background-color: #1b9a9d;
+    box-shadow: 20px 20px 50px rgb(21, 21, 21);
+  }
+}
