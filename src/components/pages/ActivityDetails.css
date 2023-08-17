@@ -26,4 +26,9 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
   }
+  .gallery img {
+    width: 360px;
+    border-radius: 0;
+    box-shadow: 0px 20px 20px rgb(21, 21, 21);
+  }
 }

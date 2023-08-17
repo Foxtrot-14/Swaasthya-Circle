@@ -33,3 +33,31 @@
   display: flex;
   list-style: none;
 }
+@media only screen and (max-width: 768px) {
+  .abc {
+    margin-left: 50px;
+    color: black;
+  }
+  .ard {
+    background-color: #1b9a9d;
+    min-height: 580px;
+    width: 330px;
+    margin-left: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 20px 20px rgb(21, 21, 21);
+  }
+  .jkl {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 19px;
+    color: white;
+  }
+  .def {
+    display: block;
+  }
+  .ghi {
+    margin-left: 55px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}

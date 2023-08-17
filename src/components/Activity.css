@@ -29,3 +29,8 @@ img {
   width: 200px;
   border-radius: 80px;
 }
+@media only screen and (max-width: 768px) {
+  .im {
+    margin: 0 30px;
+  }
+}

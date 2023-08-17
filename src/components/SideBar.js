@@ -34,7 +34,7 @@ const SideBar = () => {
           activeclassname="active"
           to="activities"
         >
-          <i class="fa-solid fa-user-doctor"></i>
+          <i class="fa-solid fa-chart-line"></i>
         </NavLink>
         <NavLink
           className="team"

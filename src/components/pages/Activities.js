@@ -9,7 +9,7 @@ const Activities = () => {
   return (
     <div className="acta">
       <center>
-        <h1 id="head">Journey So Far......</h1>
+        <h1 id="head">Journey So Far...</h1>
       </center>
       <div className="act">
         <ul className="main-list">
