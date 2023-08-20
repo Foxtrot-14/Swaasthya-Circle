@@ -61,6 +61,27 @@ const About = () => {
             <br />
           </p>
         </motion.div>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}
+          whileHover={{ scale: 1.1 }}
+          className="card2"
+        >
+          <h1>Products We Provide</h1>
+          <p>
+            1.) Health: Customized Awareness program/ training/ workshops for
+            health promotion. Community Based Health Research. Implementation
+            and evaluation of health programs. <br />
+            2.) Environment:
+            <strong> Swachh Shakti</strong> a High Rate Biomethanization unit
+            with multi stage mixing for Organic Waste Management.
+          </p>
+        </motion.div>
       </center>
       {/* //vision and mission, services //change icon , serif fonts */}
     </div>
