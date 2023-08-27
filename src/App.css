@@ -8,22 +8,10 @@
   width: 100%;
   position: relative;
   min-height: 500px;
-  background: url("./components/img/back.png");
+  /* background: url("./components/img/back.png"); */
 }
 @media only screen and (max-width: 768px) {
   .App {
     background-image: none;
   }
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("../src/components/fonts/helvetica-neu.ttf") format("ttf");
-}
-@font-face {
-  font-family: "La Belle Aurore";
-  src: url("../src/components/fonts/LaBelleAurore.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Coolvetica";
-  src: url("../src/components/fonts/CoolveticaRg-Regular.woff2") format("woff2");
 }

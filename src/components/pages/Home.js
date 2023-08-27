@@ -15,6 +15,9 @@ const Home = () => {
       }}
       className="container"
     >
+      <center>
+        <h1 className="kan">ಸ್ವಾಸ್ಥ್ಯ ಸಕ೯ಲ್‌ ಫೌಂಡೇಷನ್</h1>
+      </center>
       <div className="text-zone">
         <ul className="hero">
           <motion.li
