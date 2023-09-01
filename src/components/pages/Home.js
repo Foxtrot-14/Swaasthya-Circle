@@ -1,55 +1,22 @@
 import React from "react";
 import "./Home.css";
 import logo from "../img/logo.png";
-import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        type: "just",
-        stiffness: 260,
-        damping: 20,
-        delay: 0.2,
-      }}
-      className="container"
-    >
-      <center>
-        <h1 className="kan">ಸ್ವಾಸ್ಥ್ಯ ಸಕ೯ಲ್‌ ಫೌಂಡೇಷನ್</h1>
-      </center>
-      <div className="text-zone">
-        <ul className="hero">
-          <motion.li
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            }}
-            whileHover={{ scale: 1.1 }}
-          >
-            <h1>
-              To Promote Health, <br />
-              To Protect the Environment!
-            </h1>
-          </motion.li>
-          <motion.li
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            }}
-            whileHover={{ scale: 1.1 }}
-          >
-            <img className="mlogo" src={logo} alt="logo" />
-          </motion.li>
-        </ul>
+    <>
+      <div className="container">
+        <img src={logo} alt="logo" className="mlogo" />
+        <h1 className="kann">ಸ್ವಾಸ್ಥ್ಯ ಸಕ೯ಲ್‌ ಫೌಂಡೇಷನ್</h1>
+        <h1 className="kann">SWAASTHYA CIRCLE FOUNDATION</h1>
+        <h2 className="jkn">
+          <span className="abb">C</span>enter for <span className="abb">I</span>
+          nnovation, <span className="abb">R</span>esearch,{" "}
+          <span className="abb">C</span>apacity Building,{" "}
+          <span className="abb">L</span>
+          eadership and <span className="abb">E</span>ducation
+        </h2>
       </div>
-    </motion.div>
+    </>
   );
 };
 

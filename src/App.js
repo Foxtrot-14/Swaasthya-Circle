@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Activities from "./components/pages/Activities";
-import Volunteer from "./components/pages/Volunteer";
 import SideBar from "./components/SideBar";
+import Volunteer from "./components/pages/Volunteer";
 import ActivityDetails from "./components/pages/ActivityDetails";
 import Team from "./components/pages/Team";
 function App() {

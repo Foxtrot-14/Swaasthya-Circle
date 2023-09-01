@@ -11,7 +11,7 @@ const SideBar = () => {
         type: "just",
         stiffness: 260,
         damping: 20,
-        delay: 1.5,
+        delay: 1,
       }}
       whileHover={{ scale: 1.1 }}
       className="nav-bar"
