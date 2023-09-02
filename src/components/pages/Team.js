@@ -4,7 +4,7 @@ import da from "../../Teaminfo";
 import { motion } from "framer-motion";
 const Team = () => {
   return (
-    <div className="acta">
+    <div className="acta1">
       <center>
         <h1 id="head">Meet Our Team...</h1>
       </center>

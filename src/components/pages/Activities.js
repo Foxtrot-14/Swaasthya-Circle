@@ -8,7 +8,7 @@ const Activities = () => {
   const Ids = im.Ids;
   return (
     <>
-      <div className="acta">
+      <div className="acta1">
         <center>
           <h1 id="head">Journey So Far...</h1>
         </center>

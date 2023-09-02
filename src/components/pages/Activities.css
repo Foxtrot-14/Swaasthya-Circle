@@ -1,3 +1,10 @@
+.acta1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/back2.png");
+  position: absolute;
+  background-position: repeat;
+}
 .act {
   margin-top: 60px;
   height: 100%;
