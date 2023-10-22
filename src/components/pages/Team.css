@@ -48,8 +48,9 @@
   }
   .jkl {
     margin-top: 40px;
-    margin-left: 20px;
-    font-size: 19px;
+    margin-left: 0px;
+    margin-right: 50px;
+    font-size: 18px;
     color: white;
   }
   .def {

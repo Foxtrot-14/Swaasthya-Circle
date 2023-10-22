@@ -26,7 +26,11 @@ const Volunteer = () => {
             Bank Account Details: M/s Swaasthya Circle Foundation. <br />
             Account Number: 50200077794806 <br />
             IFSC Code: HDFC0002566 <br />
-            Income Tax: Registred under Section 80G (ABDCS9443GF20221)
+            Income Tax: Registred under Section 80G (ABDCS9443GF20221) <br />
+            To Volunteer:
+            <a className="not" href="https://forms.gle/7eWcquzDrfSih8gF9">
+              Google Form
+            </a>
           </center>
         </p>
       </div>
